@@ -1,11 +1,16 @@
 @use "hero";
-@use "variables";
+@use 'variables';
+@use './_location';
+@use './gifts';
+@use './shows';
+@use './footer';
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Irish Grover', cursive;
+    list-style: none;
 }
 
 .container{

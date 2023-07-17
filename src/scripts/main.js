@@ -1,4 +1,4 @@
-
+AOS.init();
 
 const dateBirtday = new Date("Oct 26, 2023 20:00:00");
 const timeEvent = dateBirtday.getTime();

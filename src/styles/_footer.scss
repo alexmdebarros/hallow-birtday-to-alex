@@ -1,0 +1,15 @@
+@use 'variables';
+
+footer{
+    .container{
+        background-image: linear-gradient(variables.$purpleText, variables.$black);
+    }
+    
+
+    p{
+        text-align: center;
+        padding: 32px;
+        color: variables.$orangetext;
+        font-size: 16px;
+    }
+}

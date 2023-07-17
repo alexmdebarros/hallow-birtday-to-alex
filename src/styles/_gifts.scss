@@ -1,0 +1,34 @@
+@use './variables';
+
+.gifts{
+    text-align: center;
+
+    .container{
+        display: flex;
+        padding: 32px;
+        background-color: variables.$purpleText;
+        align-items: center;
+        justify-content: center;
+
+        ul{
+
+            li{
+                
+                b{
+                    font-size: 36px;
+                    color: variables.$orangetext;
+                }
+                p{
+                    color: variables.$yellowText;
+                }
+            }
+        }
+
+        
+        img{
+            width: 180px;
+            
+        }
+    }
+
+}

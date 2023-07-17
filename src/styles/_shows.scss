@@ -1,0 +1,29 @@
+@use 'variables';
+
+.shows{
+
+    .container{
+        display: flex;
+        align-items: center;
+        background-color: variables.$purpleText;
+        padding: 32px;
+        justify-content: center;
+        gap: 100px;
+        
+        ul{
+            text-align: center;
+        }
+
+        b{
+            color: variables.$orangetext;
+            font-size: 36px;
+        }
+        li{
+            color: variables.$yellowText;
+            font-size: 24px;
+        }
+        img{
+            width: 400px;
+        }
+    }
+}

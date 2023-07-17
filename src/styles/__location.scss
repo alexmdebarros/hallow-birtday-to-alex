@@ -1,0 +1,51 @@
+@use 'variables';
+
+.location{
+    text-align: center;
+    
+    
+    .container{
+        background-image: linear-gradient(variables.$black, variables.$purpleText);
+        display: flex;        
+        padding: 32px;
+        align-items: center;
+        gap: 200px;
+        justify-content: center;
+    }
+
+    ul{
+        display: block;
+        
+
+        li{
+            padding-bottom: 32px;
+
+            b{
+                color: variables.$orangetext;
+                font-size: 36px;                
+            }
+
+            p{
+                color: variables.$yellowText;
+                font-size: 24px;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            border: 2px solid variables.$orangetext;
+            padding: 16px;
+            color: variables.$yellowText;
+            font-size: 24px;
+
+            &:hover{
+                background-color: #9908c5;
+            }
+        }
+    }
+
+    img{
+        width: 400px;
+        
+    }
+}
