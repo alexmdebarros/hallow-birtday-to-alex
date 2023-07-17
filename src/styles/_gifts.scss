@@ -29,6 +29,10 @@
             width: 180px;
             
         }
+
+        @media (max-width: 768px){
+            display: block;
+        }
     }
 
 }
