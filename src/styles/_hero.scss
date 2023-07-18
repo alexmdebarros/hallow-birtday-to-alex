@@ -2,11 +2,13 @@
 
 .hero{
     text-align: center;
+    
 
-    .container{       
+    .container{
+        
         background-image: url(../images/backgound-hero.jpg);
         background-repeat: no-repeat; 
-        background-size: contain;
+        background-size: cover;
     }
 
     
@@ -39,7 +41,7 @@
         }
     }
 
-    @media (max-width: 768px){
+    @media (max-width: 768px){        
         
         &__title{
             font-size: 24px;
