@@ -1,7 +1,7 @@
 @use 'variables';
 
 footer{
-    
+    padding-bottom: 32px;
 
     .container{
         background-image: linear-gradient(variables.$purpleText, variables.$black);
